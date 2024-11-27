@@ -1,0 +1,81 @@
+:root {
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.card p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card p a:hover {
+  text-decoration: underline;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card-body h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-body p {
+  margin-bottom: 20px;
+}
